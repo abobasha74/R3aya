@@ -9,6 +9,12 @@ The system provides dedicated interfaces for patients, doctors, and administrato
 - **Frontend:** https://cybersentinels.cloud
 - **Admin Dashboard:** https://cybersentinels.cloud/admin
 
+## 🎨 Design
+
+The complete UI/UX design for R3aya, including all pages, components, and the design system, is available on Figma:
+
+- **Figma Design File:** https://www.figma.com/design/TkMat8L1b0RdaPour6oHZJ/R3aya-website?node-id=1-632
+
 ## ✨ Features
 
 ### 👤 Patient
