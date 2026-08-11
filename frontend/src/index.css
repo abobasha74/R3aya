@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------- Global Settings ---------------- */
+
+html {
+scroll-behavior: smooth;
+}
+
+* {
+  font-family: 'Outfit', sans-serif;
+  box-sizing: border-box;
+  }
+
+body {
+min-height: 100vh;
+background-color: #f8f8f8;
+color: #312D2D;
+}
+
+/* ---------------- Active Navbar Link ---------------- */
+
+.active hr {
+@apply block;
+}
+
+/* ---------------- Mobile Navbar ---------------- */
+
+@media (max-width: 740px) {
+
+.active p {
+    @apply bg-primary text-white;
+}
+
+
+}
+
+/* ---------------- Remove Blue Focus Outline ---------------- */
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+outline: none;
+}
+
+/* ---------------- Text Selection ---------------- */
+
+::selection {
+background-color: #BF6952;
+color: white;
+}
+
+/* ---------------- Hide Scrollbar ---------------- */
+
+::-webkit-scrollbar {
+width: 0;
+height: 0;
+}
+
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  }
